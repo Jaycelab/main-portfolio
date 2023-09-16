@@ -2,7 +2,7 @@ export function setupCounter(element) {
   let counter = 0;
   const setCounter = (count) => {
     counter = count;
-    element.innerHTML = `How many &#127814 you have taken = 
+    element.innerHTML = `Test = 
     ${counter}`;
   };
   element.addEventListener("click", () => setCounter(counter + 1));
